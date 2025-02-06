@@ -2,6 +2,18 @@
 电子科技大学信息与软件工程学院（互联网+实验班）部分课程资料
 
 > 注：软件工程专业课我已经上传至[Learning-In-UESTC仓库](https://github.com/1538-art/Learning-In-UESTC)以及[Uestc-Course](https://github.com/Xovee/uestc-course/)中，欢迎大家下载，也欢迎大家去相应仓库贡献。
+>
+> 👇
+> 
+> 信软专业课可关注仓库：https://github.com/1538-art/Learning-In-UESTC
+> 
+> 公共课程也可关注仓库：https://github.com/Xovee/uestc-course/
+> 
+> 互+独有课程可关注仓库：https://github.com/jjq0425/UESTC-SISE-Internet_PLUS-Course 【本仓库】
+> 
+> icoding机考真题：https://blog.csdn.net/jjq15008419406/category_11960847.html 【CSDN博客】
+> 
+> 欢迎PR**贡献成电课程资源**！欢迎前往CSDN博客评论区贡献**最新程算机考真题**！
 
 <h2 align="center" style="color:lightgreen" id="00">00 前言</h2>
 
