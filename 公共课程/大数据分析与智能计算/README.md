@@ -4,7 +4,7 @@
 
 互+班方向的大四地一门课，3.5学分。**疑似23级及之后会被取消.**
 
-非常典型地信软大杂烩课程，讲：数据分析与机器学习+大数据分布式计算*（包括Hbase、Mapreduce、流计算、Spark、hadoop、elsaticsearch）*+云计算（不考）
+非常典型地信软大杂烩课程，讲：数据分析与机器学习+大数据分布式计算 *（包括Hbase、Mapreduce、流计算、Spark、hadoop、elsaticsearch）* +云计算（不考）
 
 - 难易程度：期末开卷，所以…
 
