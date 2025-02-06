@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%BNU课程论文模板
+%%作者：LeyuDame
+%%License：Creative Commons CC BY 4.0
+%%GitHub：https://github.com/LeyuDame/BNUpapers
+%%Overleaf：https://www.overleaf.com/latex/templates/bnuke-cheng-lun-wen-mo-ban/bcwvxncqffkw
+
+%%最后更改于2023/4/12
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%在"北大课程论文模板"基础上修改而来
+%%原作者：Shawn Wang
+%%Overleaf地址：https://www.overleaf.com/latex/templates/bei-jing-da-xue-ke-cheng-lun-wen-mo-ban/yntmqcktrzfh
+
+%%更换了封面logo
+%%新建了BNUpapers宏包，将大部分与正文无关的设定也放在了sty文件里
+%%新增了bibtex的引用方式
+%%增加了一些图、定理等环境的中文引用名称
+\usepackage[fontsize=13.5pt]{fontsize}
+
+\ProvidesPackage{BNUpapers}
+
+%%页边距
+\RequirePackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+
+%%一些必要的宏包
+\RequirePackage[unicode=true,colorlinks,urlcolor=black,linkcolor=black,bookmarksnumbered=black, citecolor=black]{hyperref}
+\RequirePackage{latexsym,amssymb,amsmath,amsbsy,amsopn,amstext,amsthm,amsxtra,color,bm,calc,ifpdf}
+\RequirePackage{graphicx}
+\RequirePackage{enumerate}
+\RequirePackage{fancyhdr}
+\RequirePackage{listings}
+\RequirePackage{multirow}
+\RequirePackage{makeidx}
+\RequirePackage{xcolor}
+\RequirePackage{fontspec}
+\RequirePackage{subfigure}
+\PassOptionsToPackage{hyphens}{url}
+\RequirePackage{hyperref}
+\RequirePackage{pythonhighlight}
+
+\RequirePackage{tcolorbox}
+
+\RequirePackage{fontawesome}
+
+%% 更改摘要二字的样式
+\renewcommand{\abstractname}{\textbf{\huge {摘\quad 要}}} 
+\renewcommand{\contentsname}{\textbf{\huge {目\quad 录}} ~\\ ~\\} 
+
+%%对一些autoref的中文引用名作修改
+\def\equationautorefname{式}
+\def\footnoteautorefname{脚注}
+\def\itemautorefname{项}
+\def\figureautorefname{图}
+\def\tableautorefname{表}
+\def\partautorefname{篇}
+\def\appendixautorefname{附录}
+\def\chapterautorefname{章}
+\def\sectionautorefname{节}
+\def\subsectionautorefname{小小节}
+\def\subsubsectionautorefname{subsubsection}
+\def\paragraphautorefname{段落}
+\def\subparagraphautorefname{子段落}
+\def\FancyVerbLineautorefname{行}
+\def\theoremautorefname{定理}
+
+\newtheorem{Theorem}{定理}[section]
+\newtheorem{Lemma}[Theorem]{引理}
+\newtheorem{Corollary}[Theorem]{推论}
+\newtheorem{Proposition}[Theorem]{命题}
+\newtheorem{Definition}[Theorem]{定义}
+\newtheorem{Example}[Theorem]{例}
+
+%%参考文献设置
+\newcommand{\reference}{
+% \nocite{*}   %打开此选项会列出bib里面的所有参考文献
+\bibliographystyle{unsrt} %规定了参考文献的格式
+\begin{center}%居中
+	\bibliography{reference} %调出LaTeX生成参考文献列表
+\end{center}
+}
+
+%%文本框设置
+\newcommand{\tbox}[1]{
+\begin{center}
+\begin{tcolorbox}[colback=gray!10,%gray background
+                  colframe=black,% black frame colour
+                  width=8cm,% Use 8cm total width,
+                  arc=1mm, auto outer arc,
+                  boxrule=0.5pt,
+                 ]
+{#1}
+\end{tcolorbox}
+\end{center}
+}
+
+%%页眉设置
+\pagestyle{fancy}
+\fancyhead[L]{计量经济学小组作业}
+\fancyhead[C]{}%%留空则不显示
+\fancyhead[R]{\fangsong 组员名字·组员名字·组员名字}
+
+
+%%封面页设置
+{    
+    \title{
+    \LARGE \textbf{{计量经济学小组课题}}
+    ~\\
+    ~\\
+    \huge \textbf{{基于某信贷公司的个人贷款逾期行为与坏账金额影响因素分析}}
+    ~\\
+    ~\\
+    ~\\
+    ~\\
+    }%标题
+
+
+    
+    \author{
+    \kaishu\Large
+        姓名:\ \underline{组员名字} \qquad %姓名
+        学号:\ \underline{20***********} \qquad %学号
+        % 序号\ \underline{38} \qquad %学号
+        \\
+    \kaishu\Large
+        姓名:\ \underline{组员名字} \qquad %姓名
+        学号:\ \underline{20***********} \qquad %学号
+        % 序号\ \underline{37} \qquad %学号
+        \\
+    \kaishu\Large
+        姓名:\ \underline{组员名字} \qquad %姓名
+        学号:\ \underline{20***********} \qquad %学号
+        % 序号\ \underline{25} \qquad %学号
+        }
+    
+    \date{} % 默认为今天的日期，可以注释掉不显示日期
+}
+
+%%在这里可更改封面logo
+\newcommand{\cover}{
+%%封面校名logo，图片都在figures文件夹里
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/UESTC.png}
+\end{figure} 
+
+
+
+\maketitle
+}
+
