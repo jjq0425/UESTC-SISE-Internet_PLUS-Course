@@ -1,5 +1,5 @@
 # UESTC-SISE-Internet_PLUS-Course
-电子科技大学信息与软件工程学院（互联网+实验班）部分课程资料
+电子科技大学信息与软件工程学院（“互联网+培养”实验班）部分课程资料
 
 > 注：信软部分专业课资料我已经上传至[Learning-In-UESTC仓库](https://github.com/1538-art/Learning-In-UESTC)以及[Uestc-Course](https://github.com/Xovee/uestc-course/)中。因为本仓库只存储互+独有课，为了避免资源分散性，所以本仓库不收录。欢迎大家去上述仓库下载，也欢迎大家去相应仓库贡献。
 >
