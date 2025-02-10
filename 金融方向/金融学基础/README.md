@@ -1,5 +1,19 @@
 # 金融学基础
 
+### 💡 其他资料链接
+
+##### 21级资料
+
+可前往[UESTC-Course仓库](https://github.com/Xovee/uestc-course/tree/main/%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95/%E9%87%91%E8%9E%8D%E5%AD%A6%E5%9F%BA%E7%A1%80)查看。我已经上传了**作业、复习课、笔记**内容。
+
+> 部分资料与本仓库重合，部分为本仓库独有。注：后续开课时，删减了部分章节，例如CAMP模型不讲了。
+
+##### 23级资料
+
+请前往[Learning-In-UESTC仓库](https://github.com/1538-art/Learning-In-UESTC/tree/main/3-%E5%A4%A7%E4%BA%8C%E4%B8%8A/%E4%BA%92%2B/%E9%87%91%E8%9E%8D%E5%AD%A6%E5%9F%BA%E7%A1%80/2024-2025-1%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%92%8C%E8%80%83%E8%AF%95%E5%AE%89%E6%8E%922024.12.10(1)/2024-2025-1%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%92%8C%E8%80%83%E8%AF%95%E5%AE%89%E6%8E%922024.12.10)
+
+> 对比21级，少了几个章节。但重点章节（`4~9`章）基本不变。内也含**作业题、PPT**等内容
+
 ### 课程简介
 
 互+班金融方向的大二上的课，主要讲授金融学基础（包括利息、股票等）方面的内容
@@ -26,15 +40,8 @@
 
 21级期末基本**全是作业原题**！
 
-##### 21级资料
 
-请前往[UESTC-Course仓库](https://github.com/Xovee/uestc-course/tree/main/%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95/%E9%87%91%E8%9E%8D%E5%AD%A6%E5%9F%BA%E7%A1%80)查看。我已经上传了**作业、复习课、笔记**内容。
 
-##### 23级资料
-
-请前往[Learning-In-UESTC仓库](https://github.com/1538-art/Learning-In-UESTC/tree/main/3-%E5%A4%A7%E4%BA%8C%E4%B8%8A/%E4%BA%92%2B/%E9%87%91%E8%9E%8D%E5%AD%A6%E5%9F%BA%E7%A1%80/2024-2025-1%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%92%8C%E8%80%83%E8%AF%95%E5%AE%89%E6%8E%922024.12.10(1)/2024-2025-1%E5%AD%A6%E6%9C%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E5%92%8C%E8%80%83%E8%AF%95%E5%AE%89%E6%8E%922024.12.10)
-
-> 对比21级，少了几个章节。但重点章节（`4~9`章）基本不变
 
 
 
