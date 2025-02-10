@@ -26,7 +26,7 @@
 邓光军老师考试的选择题部分出自于 中国大学MOOC-“衍生工具”（四川大学王军）的MOOC课后题；大题均来自于作业。
 
 
-### 复习资料
+### 💡 复习资料
 
 请参考[UESTC-Course仓库](https://github.com/Xovee/uestc-course/tree/main/%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95/%E9%87%91%E8%9E%8D%E8%A1%8D%E7%94%9F%E5%B7%A5%E5%85%B7)查看
 
