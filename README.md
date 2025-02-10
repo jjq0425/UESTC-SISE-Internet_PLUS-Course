@@ -78,6 +78,8 @@
 - 提交 PR：先 Fork 本项目后在个人仓库中做出修改，发起 pull request 即可。
 - Issue：添加附件在 Issue 中，由维护者添加。
 
+> 💡 如不了解如何贡献，可以把内容打包发邮件到jiangjinqian_github@2925.com，定期添加。
+
 <h2 align="center" style="color:lightgreen" id="01">04 资源下载</h2>
 
 可以直接下载文件
