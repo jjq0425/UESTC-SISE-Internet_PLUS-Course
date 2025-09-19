@@ -15,3 +15,7 @@
 ### 实验3
 
 21级老师要求期末小卒报告每个人只呈现自己地工作量。之前是一整个组交一个报告。
+
+### 老师发的实验资料（24年）
+
+飞书链接：https://uestc.feishu.cn/drive/folder/HpHgfAXdclHYE2dKUnecuqj8nTh   密码：6332#P25
